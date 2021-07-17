@@ -70,19 +70,19 @@ class Particle {
     alpha = map(alpha, 0, 255, 0, 200)
     const weightings = [{
         chance: 0.36,
-        color: color(250, 240, 0, alpha) //cyber
+        color: color(250, 240, 0, alpha) 
       },
       {
         chance: 0.08,
-        color: color(34, 119, 204, alpha) //blue
+        color: color(34, 119, 204, alpha) 
       },
       {
         chance: 0.28,
-        color: color(240, 200, 0, alpha) //gold
+        color: color(240, 200, 0, alpha) 
       },
       {
         chance: 0.16,
-        color: color(255, 80, 5, alpha) //purple
+        color: color(255, 80, 5, alpha)
       },
       {
         chance: 0.16,
