@@ -3,7 +3,7 @@ const numberOfParticles = 400;
 const noiseScale = 5e11; // 1.2e11;
 const backgroundColor = `rgb(17, 10, 20)`;
 const particleSize = 3.6; // 2.4;
-const pickSpeed = () => random([0.2, 0.5, 0.5, 0.8, 1, 2]);
+const pickSpeed = () => random([2, 3, 5]); // random([0.2, 0.5, 0.5, 0.8, 1, 2]);
 const bothDirections = true;
 
 function setup() {
